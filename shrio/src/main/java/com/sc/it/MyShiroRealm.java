@@ -17,6 +17,8 @@ public class MyShiroRealm   extends AuthorizingRealm {
 	  private static final String USER_NAME = "lvxiaomao";  
 	    private static final String PASSWORD = "123456"; 
 	@Override
+	
+	
 	protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
 		// TODO Auto-generated method stub
 		 Set<String> roleNames = new HashSet<String>();  
